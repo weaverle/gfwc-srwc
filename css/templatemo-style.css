@@ -397,12 +397,21 @@ p {
 	text-align: center;
 	line-height: 25px;
 	margin-right: 0px;
+  padding-top: 2px;
+  margin-top: 0px;
+  font-size: 18px;
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .event-list .event-item {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .event-list .event-item li {
@@ -423,16 +432,7 @@ p {
 	font-weight: 300;
 	font-size: 15px;
 	display: inline-block;
-}
-
-.event-list ul li .date span {
-	padding-top: 15px;
-	margin-top: 0px;
-	font-size: 18px;
-	display: block;
-	font-weight: 700;
-	color: #fff;
-	text-transform: uppercase;
+  min-width: 200px;
 }
 
 .event-list h4 {
@@ -446,21 +446,21 @@ p {
 	display: inline-block;
 }
 
-.event-list .web span {
+.event-list .volunteer span {
 	font-size: 13px;
 	font-weight: 600;
 	color: #b94e5e;
 	display: inline-block;
 }
 
-.event-list .design span {
+.event-list .meeting span {
 	font-size: 13px;
 	font-weight: 600;
 	color: #e86859;
 	display: inline-block;
 }
 
-.event-list .app span {
+.event-list .fundraise span {
 	font-size: 13px;
 	font-weight: 600;
 	color: #f4bc51;
