@@ -342,6 +342,10 @@ p {
   cursor: pointer;
 }
 
+.events .white-button {
+  margin-top: 50px;
+}
+
 .filter-categories ul li.active span {
   color: #f4bc51;
 }
@@ -547,20 +551,20 @@ p {
 	margin-top: 28px;
 	display: block;
 	color: #e86859;
-	font-size: 13px;
+	font-size: 14px;
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 600;
 }
 
 #owl-testimonial .item h4 {
-	font-size: 17px;
+	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #121212;
 }
 
 #owl-testimonial .item p {
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
 	color: #4a4a4a;
 	padding: 0px 120px;
@@ -755,15 +759,44 @@ transition-delay: 0.3s;
 .contact-us #contact {
 	min-height: 500px;
 	height: 500px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 10px;
 	padding-left: 120px;
 	padding-right: 120px;
 	text-align: center;
-	background-image: url(../img/contact-bg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-color: rgba(185, 78, 94, 1);
+	/*background-image: url(../img/contact-bg.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
 	background-position: center center;
+  color: white;
+}
+
+#contact .contact-person {
+  margin-top: 30px;
+}
+
+#contact i {
+  /*font-size: 14px;*/
+  /*color: white;*/
+  padding-right: 3px;
+}
+
+#contact .name {
+  /*margin-top: 25px;*/
+  margin-bottom: 2px;
+}
+
+#contact .title {
+  margin-bottom: 6px;
+}
+
+#contact .phone {
+  margin-bottom: 2px;
+}
+
+#contact a {
+  color: rgba(244, 188, 81, 1);
 }
 
 #contact input {
@@ -827,7 +860,7 @@ transition-delay: 0.3s;
 	padding-top: 150px;
 	padding-bottom: 150px;
 	text-align: center;
-	background-image: url(../img/contact-right-bg.png);
+	background-image: url(../img/map.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -845,11 +878,13 @@ transition-delay: 0.3s;
 }
 
 .contact-right-content h4 {
-	margin-top: 33px;
-	font-size: 18px;
+	margin-top: 25px;
+  padding: 0 40px;
+	font-size: 16px;
 	/*text-transform: uppercase;*/
 	color: #fff;
-	font-weight: 700;
+	font-weight: 300;
+  line-height: 1.2;
 }
 
 footer {
