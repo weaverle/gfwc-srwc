@@ -637,6 +637,12 @@ p {
     transition-delay: 0s;
 }
 
+/* to make it work (kinda) in IE */
+.flip-container:hover .flipper .back {
+  backface-visibility: visible;
+  z-index: 3;
+}
+
 .flip-container,
 .front,
 .back {
@@ -670,7 +676,7 @@ p {
 }
 
 .flipper {
-  -webkit-transition: 0.3s all;   
+-webkit-transition: 0.3s all;   
 -webkit-transition-delay: 0.3s; 
 -moz-transition: 0.3s all;   
 -moz-transition-delay: 5s; 
