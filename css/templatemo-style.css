@@ -245,7 +245,7 @@ p {
 
 .best-offer-right-content {
 	background-color: #eee;
-	padding: 80px 40px;
+	padding: 60px 40px;
 	min-height: 550px;
 	height: 550px;
 }
@@ -342,6 +342,10 @@ p {
   cursor: pointer;
 }
 
+.events .pink-button {
+  margin-top: 50px;
+}
+
 .events .white-button {
   margin-top: 50px;
 }
@@ -392,6 +396,10 @@ p {
 
 .event-list ul .fivth-child{
 	background-color: #eee;
+}
+
+.event-list ul .sixth-child{
+  background-color: #ddd;
 }
 
 .event-list ul li .date span {
@@ -479,7 +487,7 @@ p {
 
 .event-list {
 	transition: all 0.5s;
-	height: 545px;
+	/*height: 545px;*/
 }
 
 
