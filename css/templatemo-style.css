@@ -309,39 +309,6 @@ p {
 	background-position: center center;
 }
 
-.events .filter-categories {
-  list-style: none;
-  margin-top: 0px;
-  padding-right: 0px;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.events .filter-categories li {
-  display: inline;
-  text-align: center;
-  margin: 8px 0px;
-}
-
-.events .filter-categories li {
-  display:block;
-  transition: all 0.5s;
-  text-align: center;
-  text-decoration:none;
-  text-transform:uppercase;
-  letter-spacing: 0.5px;
-  color:#121212;
-  font-size: 17px!important;
-  font-weight: 600;
-  display: inline-block;
-  max-width: 200px;
-  width: 200px;
-  height: 70px;
-  line-height: 70px;
-  background-color: #fff;
-  cursor: pointer;
-}
-
 .events .pink-button {
   margin-top: 50px;
 }
@@ -350,148 +317,12 @@ p {
   margin-top: 50px;
 }
 
-.filter-categories ul li.active span {
-  color: #f4bc51;
+/*google calendar*/
+iframe {
+	min-width: 200px;
+	width: 70%;
+	height: 400px;
 }
-
-.project-item {
-	width: 100%;
-}
-
-.event-list {
-	background-color: #fff;
-}
-
-.event-list ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.event-list ul li {
-	display: block;
-	text-align: left;
-	margin-bottom: 5px;
-}
-
-.event-list ul li:last-child {
-	margin-bottom: 0px;
-}
-
-.event-list ul .first-child{
-	background-color: #eee;
-}
-
-.event-list ul .second-child{
-	background-color: #ddd;
-}
-
-.event-list ul .third-child{
-	background-color: #eee;
-}
-
-.event-list ul .fourth-child{
-	background-color: #ddd;
-}
-
-.event-list ul .fivth-child{
-	background-color: #eee;
-}
-
-.event-list ul .sixth-child{
-  background-color: #ddd;
-}
-
-.event-list ul li .date span {
-	background-color: #f4bc51;
-	width: 80px;
-	height: 80px;
-	text-align: center;
-	line-height: 25px;
-	margin-right: 0px;
-  padding-top: 2px;
-  margin-top: 0px;
-  font-size: 18px;
-  display: block;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.event-list .event-item {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.event-list .event-item li {
-	display: inline-block;
-	padding: 10px;
-}
-
-.event-list .event-item li:last-child {
-	float: right;
-	margin-top: 30px;
-	margin-right: 20px;
-}
-
-.event-list .event-item .time span{
-	text-align: center;
-	margin-left: 50px;
-	color: #4a4a4a;
-	font-weight: 300;
-	font-size: 15px;
-	display: inline-block;
-  min-width: 200px;
-}
-
-.event-list h4 {
-	width: 300px;
-	margin-top: 0px;
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #121212;
-	font-weight: 700;
-	margin-bottom: 5px;
-	display: inline-block;
-}
-
-.event-list .volunteer span {
-	font-size: 13px;
-	font-weight: 600;
-	color: #b94e5e;
-	display: inline-block;
-}
-
-.event-list .meeting span {
-	font-size: 13px;
-	font-weight: 600;
-	color: #e86859;
-	display: inline-block;
-}
-
-.event-list .fundraise span {
-	font-size: 13px;
-	font-weight: 600;
-	color: #f4bc51;
-	display: inline-block;
-}
-
-
-.event-list .white-button a:hover {
-	background-color: #f4bc51;
-	color: #fff;
-}
-
-.event-list {
-	transition: all 0.5s;
-	/*height: 545px;*/
-}
-
-
-
 
 
 .testimonial {
