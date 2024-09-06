@@ -82,10 +82,10 @@ p {
 	padding-bottom: 175px;
 	padding-left: 0px;
 	text-align: center;
-	background-image: url(../img/ChiliCookoff.png);
+	background-image: url(../img/tampon2018.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center center;
+	background-position: top center;
 	min-height: 680px;
 	height: 680px;
 }
@@ -130,7 +130,7 @@ p {
 }
 
 .right-banner-content .logo {
-  max-width: 50%;
+  max-width: 30%;
   margin: auto;
 }
 
@@ -213,8 +213,7 @@ p {
 }
 
 .best-offer-left-content {
-	min-height: 550px;
-	height: 550px;
+	min-height: 750px;
 	padding-top: 175px;
 	padding-bottom: 175px;
 	text-align: center;
@@ -246,8 +245,7 @@ p {
 .best-offer-right-content {
 	background-color: #eee;
 	padding: 60px 40px;
-	min-height: 550px;
-	height: 550px;
+	min-height: 750px;
 }
 
 .best-offer-right-content h2 {
@@ -607,9 +605,6 @@ transition-delay: 0.3s;
 	padding-right: 120px;
 	text-align: center;
   background-color: rgba(185, 78, 94, 1);
-	/*background-image: url(../img/contact-bg.png);*/
-	/*background-repeat: no-repeat;*/
-	/*background-size: cover;*/
 	background-position: center center;
   color: white;
 }
@@ -782,7 +777,7 @@ footer p em {
   .left-banner-content .text-content {
     padding-top: 10px;
     background-color: rgba(243, 158, 75, 0.8);
-    height: 305px;
+    height: 335px;
   }
 
 	.left-banner-content h1 {
