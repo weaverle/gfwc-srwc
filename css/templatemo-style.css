@@ -233,7 +233,9 @@ p {
 	/*border: 1px solid #fff;*/
 	border-radius: 50%;
 }
-
+.best-offer-left-content a {
+	color: #F79F4A;
+}
 .best-offer-left-content h4 {
 	margin-top: 33px;
 	font-size: 18px;
